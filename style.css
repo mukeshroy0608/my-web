@@ -1,0 +1,176 @@
+body{
+    font-family: fantasy;
+    color: wheat;
+    font-size: 20px;
+}
+/*
+a{
+    text-decoration: none;
+    color: inherit;
+}
+*/
+
+.index{
+    width: 1260px;
+   background-color: #665D1E;
+    margin: 0 auto;
+    
+}
+
+.full-width{
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+    display: block;
+    box-sizing: border-box;
+}
+.header{
+    padding: 50px;
+    background-color:#E75480;
+}
+
+.header h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    color: inherit;
+    float: left;
+    padding-left: 50px;
+}
+.search{
+    float:right;
+    margin: 40px 20px 0 0;
+}
+.header input[type="search"]{
+    height: 50px;
+    width: 250px;
+}
+.header input[type="submit"] {
+	background-color: burlywood;
+	width: 114px;
+	height: 47px;
+}
+.navbar{
+    background-color: darkslateblue;
+    height: 80px;
+}
+.navbar ul{
+    margin: 10px;
+    
+    text-align: center;
+}
+.navbar ul li{
+    display: inline-block;
+    list-style-type: none;
+    
+   
+}
+.navbar ul li a{
+    background-color: #00A36C;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    font-size: 20px;
+    font-family:sans-serif;
+    padding: 20px;
+
+}
+.navbar ul li a:hover{
+    background-color: red;
+}
+.main-body{
+    background-color: #4AA02C;
+    margin: 0;
+    overflow: hidden;
+}
+.main-content{
+    width: 750px;
+    margin-right: 10px;
+    padding: 15px;
+    float: left;
+    text-align: justify;
+        
+}
+
+.right-sidebar{
+    width: 450px;
+    padding-top: 15px;
+    padding-right: 10px;
+    float: right;
+    text-align: justify;
+    
+}
+.main-body h2{
+    border-bottom: 3px solid #C04000;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    color: #551606;
+    text-align: center;
+}
+.main-body a{
+    text-transform: uppercase;
+}
+.content{
+    background-color: bisque;
+    float: left;
+    width: 275px;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 700px;
+    overflow: hidden;
+}
+.content p{
+    text-align: justify;
+    color: chocolate;
+    font-family: verdana;
+    font-weight: normal;
+    font-size: 15px;
+}
+.content img{
+    height: 200px;
+    width: 250px;
+}
+.content h3{
+    border-bottom: 3px solid darkgray;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+    color: #551606;
+    text-align: center;
+    
+}
+.footer{background-color: #F08080}
+.copy{
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
